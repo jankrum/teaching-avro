@@ -4,16 +4,50 @@
     "name": "User",
     "fields": [
         {
+            "name": "id",
+            "type": "int"
+        },
+        {
             "name": "name",
             "type": "string"
         },
         {
-            "name": "age",
-            "type": "int"
+            "name": "friendsIds",
+            "type": {
+                "type": "array",
+                "items": "int"
+            }
         },
         {
-            "name": "rank",
-            "type": "string"
+            "name": "favoriteSpiceGirl",
+            "type": {
+                "type": "enum",
+                "name": "SpiceGirl",
+                "symbols": [
+                    "SCARY",
+                    "BABY",
+                    "POSH",
+                    "SPORTY",
+                    "GINGER"
+                ]
+            }
+        },
+        {
+            "name": "address",
+            "type": {
+                "type": "record",
+                "name": "Address",
+                "fields": [
+                    {
+                        "name": "street",
+                        "type": "string"
+                    },
+                    {
+                        "name": "city",
+                        "type": "string"
+                    }
+                ]
+            }
         }
     ]
 }
