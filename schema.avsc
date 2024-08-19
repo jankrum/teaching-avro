@@ -24,11 +24,11 @@
                 "type": "enum",
                 "name": "SpiceGirl",
                 "symbols": [
-                    "SCARY",
-                    "BABY",
-                    "POSH",
-                    "SPORTY",
-                    "GINGER"
+                    "Scary",
+                    "Baby",
+                    "Posh",
+                    "Sporty",
+                    "Ginger"
                 ]
             }
         },
