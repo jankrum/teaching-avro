@@ -1,0 +1,132 @@
+[
+    {
+        "state": "Alabama",
+        "nickname": "Yellowhammer State",
+        "animal": "Black Bear",
+        "dish": "Fried Chicken",
+        "bird": "Northern Flicker",
+        "founded": 1819,
+        "capital": "Montgomery",
+        "most_populous_city": "Birmingham"
+    },
+    {
+        "state": "Alaska",
+        "nickname": "The Last Frontier",
+        "animal": "Moose",
+        "dish": "Salmon",
+        "bird": "Willow Ptarmigan",
+        "founded": 1959,
+        "capital": "Juneau",
+        "most_populous_city": "Anchorage"
+    },
+    {
+        "state": "Arizona",
+        "nickname": "Grand Canyon State",
+        "animal": "Ringtail",
+        "dish": "Chimichanga",
+        "bird": "Cactus Wren",
+        "founded": 1912,
+        "capital": "Phoenix",
+        "most_populous_city": "Phoenix"
+    },
+    {
+        "state": "Arkansas",
+        "nickname": "The Natural State",
+        "animal": "White-tailed Deer",
+        "dish": "Fried Catfish",
+        "bird": "Northern Mockingbird",
+        "founded": 1836,
+        "capital": "Little Rock",
+        "most_populous_city": "Little Rock"
+    },
+    {
+        "state": "California",
+        "nickname": "Golden State",
+        "animal": "Grizzly Bear",
+        "dish": "Avocado Toast",
+        "bird": "California Quail",
+        "founded": 1850,
+        "capital": "Sacramento",
+        "most_populous_city": "Los Angeles"
+    },
+    {
+        "state": "Colorado",
+        "nickname": "Centennial State",
+        "animal": "Rocky Mountain Bighorn Sheep",
+        "dish": "Green Chili",
+        "bird": "Lark Bunting",
+        "founded": 1876,
+        "capital": "Denver",
+        "most_populous_city": "Denver"
+    },
+    {
+        "state": "Florida",
+        "nickname": "Sunshine State",
+        "animal": "Florida Panther",
+        "dish": "Key Lime Pie",
+        "bird": "Northern Mockingbird",
+        "founded": 1845,
+        "capital": "Tallahassee",
+        "most_populous_city": "Jacksonville"
+    },
+    {
+        "state": "Hawaii",
+        "nickname": "Aloha State",
+        "animal": "Hawaiian Monk Seal",
+        "dish": "Poke",
+        "bird": "Nene",
+        "founded": 1959,
+        "capital": "Honolulu",
+        "most_populous_city": "Honolulu"
+    },
+    {
+        "state": "New York",
+        "nickname": "Empire State",
+        "animal": "Beaver",
+        "dish": "Buffalo Wings",
+        "bird": "Eastern Bluebird",
+        "founded": 1788,
+        "capital": "Albany",
+        "most_populous_city": "New York City"
+    },
+    {
+        "state": "Texas",
+        "nickname": "Lone Star State",
+        "animal": "Nine-banded Armadillo",
+        "dish": "Chili",
+        "bird": "Northern Mockingbird",
+        "founded": 1845,
+        "capital": "Austin",
+        "most_populous_city": "Houston"
+    },
+    {
+        "state": "Washington",
+        "nickname": "Evergreen State",
+        "animal": "Olympic Marmot",
+        "dish": "Salmon",
+        "bird": "American Goldfinch",
+        "founded": 1889,
+        "capital": "Olympia",
+        "most_populous_city": "Seattle"
+    },
+    {
+        "state": "Illinois",
+        "nickname": "Prairie State",
+        "animal": "White-tailed Deer",
+        "dish": "Deep Dish Pizza",
+        "bird": "Northern Cardinal",
+        "founded": 1818,
+        "capital": "Springfield",
+        "most_populous_city": "Chicago"
+    },
+    {
+        "state": "Louisiana",
+        "nickname": "Pelican State",
+        "animal": "American Alligator",
+        "dish": "Gumbo",
+        "bird": "Brown Pelican",
+        "founded": 1812,
+        "capital": "Baton Rouge",
+        "most_populous_city": "New Orleans"
+    }
+]
