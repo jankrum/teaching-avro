@@ -1,53 +1,149 @@
 {
-    "namespace": "example.avro",
     "type": "record",
-    "name": "User",
+    "name": "nifiRecord",
+    "namespace": "org.apache.nifi",
     "fields": [
         {
-            "name": "id",
-            "type": "int"
+            "name": "aircraft",
+            "type": [
+                "string",
+                "null"
+            ]
         },
         {
-            "name": "name",
-            "type": "string"
+            "name": "type",
+            "type": [
+                "string",
+                "null"
+            ]
         },
         {
-            "name": "friendsIds",
-            "type": {
-                "type": "array",
-                "items": "int"
-            }
+            "name": "manufacturer",
+            "type": [
+                {
+                    "type": "record",
+                    "name": "manufacturerType",
+                    "fields": [
+                        {
+                            "name": "name",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "country",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    ]
+                },
+                "null"
+            ]
         },
         {
-            "name": "favoriteSpiceGirl",
-            "type": {
-                "type": "enum",
-                "name": "SpiceGirl",
-                "symbols": [
-                    "Scary",
-                    "Baby",
-                    "Posh",
-                    "Sporty",
-                    "Ginger"
-                ]
-            }
+            "name": "specs",
+            "type": [
+                {
+                    "type": "record",
+                    "name": "specsType",
+                    "fields": [
+                        {
+                            "name": "speed",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "range",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    ]
+                },
+                "null"
+            ]
         },
         {
-            "name": "address",
-            "type": {
-                "type": "record",
-                "name": "Address",
-                "fields": [
-                    {
-                        "name": "street",
-                        "type": "string"
-                    },
-                    {
-                        "name": "city",
-                        "type": "string"
-                    }
-                ]
-            }
+            "name": "armament",
+            "type": [
+                {
+                    "type": "array",
+                    "items": "string"
+                },
+                "null"
+            ]
+        },
+        {
+            "name": "capabilities",
+            "type": [
+                {
+                    "type": "record",
+                    "name": "capabilitiesType",
+                    "fields": [
+                        {
+                            "name": "cargo_capacity",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "troop_capacity",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "mission_duration",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "sensor_payload",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    ]
+                },
+                "null"
+            ]
+        },
+        {
+            "name": "mission",
+            "type": [
+                {
+                    "type": "record",
+                    "name": "missionType",
+                    "fields": [
+                        {
+                            "name": "primary",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        {
+                            "name": "secondary",
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    ]
+                },
+                "null"
+            ]
         }
     ]
 }
